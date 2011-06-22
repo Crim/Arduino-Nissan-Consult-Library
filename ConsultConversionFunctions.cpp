@@ -1,12 +1,7 @@
 /**
   Arduino Consult
   June 12th 2011 - Stephen Powis (edrsp@mindspring.com)
-  
-  Note:
-    Much of this logic swiped from Patrick Cole's Empeg Consult
-    and simply ported to run on the Arduino platform.
-    (http://www.suupremez.com/empeg-consult)
-  
+
   Licensed under the GPL V2
   Feel free to use this code for whatever you want,
   all that I ask that if you do use it, shoot me an email and
@@ -22,7 +17,7 @@ int ConsultConversionFunctions::convertCoolantTemp(int v)
 {
   // Convert to celcius
   v = v - 50;
-  
+
 //  if (!_isMetric) {
     // Convert to farenh
     return (v * 1.8) + 32;
@@ -60,4 +55,18 @@ int ConsultConversionFunctions::convertIgnitionTiming(int v)
 int ConsultConversionFunctions::convertTachometer(int v)
 {
   return v * 12.5;
+}
+
+// Convert Maf voltage from ECU to human readable form
+int ConsultConversionFunctions::convertMafVoltage(int v)
+{
+	// return value is in mV
+	return v * 5;
+}
+
+// Convert O2 voltage from ECU to human readable form
+int ConsultConversionFunctions::convertO2Voltage(int v)
+{
+	// Return value is in mV
+	return v * 10;
 }
