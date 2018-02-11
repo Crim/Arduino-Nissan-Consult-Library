@@ -1,6 +1,6 @@
 /**
   Arduino Consult
-  June 12th 2011 - Stephen Powis (edrsp@mindspring.com)
+  June 12th 2011 -
 
   Note:
     Inspiration for some of this code comes from Patrick Cole's

@@ -1,6 +1,6 @@
 /**
   Arduino Consult
-  June 12th 2011 - Stephen Powis (edrsp@mindspring.com)
+  June 12th 2011 -
   
   Note:
     Much of this logic swiped from Patrick Cole's Empeg Consult

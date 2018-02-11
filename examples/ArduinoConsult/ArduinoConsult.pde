@@ -1,6 +1,6 @@
 /**
   Arduino Consult Example
-  June 12th 2011 - Stephen Powis (edrsp@mindspring.com)
+  June 12th 2011 -
   
   Note:
     This example makes the assumption you have an LCD panel hooked up

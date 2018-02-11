@@ -1,6 +1,6 @@
 /**
   Arduino Consult
-  June 12th 2011 - Stephen Powis (edrsp@mindspring.com)
+  June 12th 2011 -
 
   Licensed under the GPL V2
   Feel free to use this code for whatever you want,
