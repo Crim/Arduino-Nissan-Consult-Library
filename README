@@ -1,5 +1,5 @@
 Nissan Consult Arduino Library v1.0
-June 12th 2011 - Stephen Powis (edrsp@mindspring.com)
+June 12th 2011
 
 A library for interfacing your Arduino to a Nissan Consult port
 using a serial consult adapter.  You can buy these Serial adapters
@@ -14,7 +14,4 @@ Portions of this code inspired by Patrick Cole and his consult empeg code
 found here: http://www.supremez.com/empeg-consult/
 
 All code licensed under GPL V2.
-Use this code as you see fit!  If you do something interesting with it
-shoot me an email and let me know!  
-
-Stephen
+Use this code as you see fit!  
